@@ -1,0 +1,176 @@
+2026-06-21 21:18:40|INFO|init_db:51|Database initialized at /data/data/com.termux/files/home/projects/eloho-agent/data/eloho.db
+2026-06-21 21:19:51|INFO|fetch_prices:9|Scraping NGX prices for 7 stocks
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|GTCO: N115.55 (-9.97%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|ZENITHBANK: N110.00 (-4.76%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|OKOMUOIL: N1418.00 (+0.00%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|TRANSCORP: N44.00 (+0.00%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|MTNN: N800.00 (+0.00%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|ACCESSCORP: N22.80 (-0.87%)
+2026-06-21 21:20:11|DEBUG|fetch_prices:26|FIDSON: N101.20 (+0.00%)
+2026-06-21 21:20:11|INFO|fetch_prices:33|Saved prices for 7 stocks
+2026-06-21 21:20:11|WARNING|check_circuit_breakers:58|Circuit breaker: GTCO -9.97%
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|GTCO: N8,000.00 → 69.2341 units @ N115.55 (limit: N114.97)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|ZENITHBANK: N8,000.00 → 72.7273 units @ N110.00 (limit: N109.45)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|OKOMUOIL: N6,000.00 → 4.2313 units @ N1418.00 (limit: N1410.91)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|TRANSCORP: N4,000.00 → 90.9091 units @ N44.00 (limit: N43.78)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|MTNN: N6,000.00 → 7.5000 units @ N800.00 (limit: N796.00)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|ACCESSCORP: N4,000.00 → 175.4386 units @ N22.80 (limit: N22.69)
+2026-06-21 21:21:42|DEBUG|compute_allocations:33|FIDSON: N4,000.00 → 39.5257 units @ N101.20 (limit: N100.69)
+2026-06-21 21:21:42|INFO|run_dca:62|DRY RUN — N40,000.00 across 7 stocks
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|GTCO: N8,000.00 → 69.2341 units @ N115.55 (limit: N114.97)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|ZENITHBANK: N8,000.00 → 72.7273 units @ N110.00 (limit: N109.45)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|OKOMUOIL: N6,000.00 → 4.2313 units @ N1418.00 (limit: N1410.91)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|TRANSCORP: N4,000.00 → 90.9091 units @ N44.00 (limit: N43.78)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|MTNN: N6,000.00 → 7.5000 units @ N800.00 (limit: N796.00)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|ACCESSCORP: N4,000.00 → 175.4386 units @ N22.80 (limit: N22.69)
+2026-06-21 21:22:12|DEBUG|compute_allocations:33|FIDSON: N4,000.00 → 39.5257 units @ N101.20 (limit: N100.69)
+2026-06-21 21:22:12|INFO|run_dca:67|DCA round 1 saved — N40,000.00 across 7 stocks
+2026-06-21 21:22:15|INFO|send_message:31|Telegram message sent
+2026-06-21 21:22:55|INFO|<module>:10|Stripe: live mode (test key detected)
+2026-06-21 21:22:57|ERROR|create_dca_invoice:64|Stripe error: Invalid API Key provided: sk_test_*********here
+2026-06-21 21:25:15|INFO|fetch_prices:9|Scraping NGX prices for 7 stocks
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|GTCO: N115.55 (-9.97%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|ZENITHBANK: N110.00 (-4.76%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|OKOMUOIL: N1418.00 (+0.00%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|TRANSCORP: N44.00 (+0.00%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|MTNN: N800.00 (+0.00%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|ACCESSCORP: N22.80 (-0.87%)
+2026-06-21 21:25:32|DEBUG|fetch_prices:26|FIDSON: N101.20 (+0.00%)
+2026-06-21 21:25:32|INFO|fetch_prices:33|Saved prices for 7 stocks
+2026-06-21 21:25:32|WARNING|check_circuit_breakers:58|Circuit breaker: GTCO -9.97%
+2026-06-21 21:25:33|INFO|send_message:31|Telegram message sent
+2026-06-21 21:25:35|INFO|send_message:31|Telegram message sent
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|GTCO: N8,000.00 → 69.2341 units @ N115.55 (limit: N114.97)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|ZENITHBANK: N8,000.00 → 72.7273 units @ N110.00 (limit: N109.45)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|OKOMUOIL: N6,000.00 → 4.2313 units @ N1418.00 (limit: N1410.91)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|TRANSCORP: N4,000.00 → 90.9091 units @ N44.00 (limit: N43.78)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|MTNN: N6,000.00 → 7.5000 units @ N800.00 (limit: N796.00)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|ACCESSCORP: N4,000.00 → 175.4386 units @ N22.80 (limit: N22.69)
+2026-06-21 21:27:18|DEBUG|compute_allocations:33|FIDSON: N4,000.00 → 39.5257 units @ N101.20 (limit: N100.69)
+2026-06-21 21:27:18|INFO|run_dca:62|DRY RUN — N40,000.00 across 7 stocks
+2026-06-21 21:40:27|DEBUG|compute_allocations:41|GTCO: N8,000.00 → 69 units @ N115.55 (limit: N114.97)
+2026-06-21 21:40:27|DEBUG|compute_allocations:41|ZENITHBANK: N8,000.00 → 72 units @ N110.00 (limit: N109.45)
+2026-06-21 21:40:27|DEBUG|compute_allocations:41|OKOMUOIL: N6,000.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 21:40:27|DEBUG|compute_allocations:22|TRANSCORP: N4,000.00 below minimum — skipping
+2026-06-21 21:40:27|DEBUG|compute_allocations:41|MTNN: N6,000.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 21:40:27|DEBUG|compute_allocations:22|ACCESSCORP: N4,000.00 below minimum — skipping
+2026-06-21 21:40:27|DEBUG|compute_allocations:22|FIDSON: N4,000.00 below minimum — skipping
+2026-06-21 21:40:27|INFO|run_dca:70|DRY RUN — N28,000.00 across 4 stocks
+2026-06-21 21:58:01|DEBUG|compute_allocations:64|TRANSCORP: N4,000.00 below minimum — skipping
+2026-06-21 21:58:01|DEBUG|compute_allocations:64|ACCESSCORP: N4,000.00 below minimum — skipping
+2026-06-21 21:58:01|DEBUG|compute_allocations:64|FIDSON: N4,000.00 below minimum — skipping
+2026-06-21 21:58:01|DEBUG|compute_allocations:103|Redistributed N5,573.28 to GTCO (48 extra units)
+2026-06-21 21:58:01|DEBUG|compute_allocations:103|Redistributed N5,534.48 to ZENITHBANK (50 extra units)
+2026-06-21 21:58:01|DEBUG|compute_allocations:103|Redistributed N336.21 to OKOMUOIL (0 extra units)
+2026-06-21 21:58:01|DEBUG|compute_allocations:103|Redistributed N556.03 to MTNN (0 extra units)
+2026-06-21 21:58:01|INFO|run_dca:132|DRY RUN — N38,211.35 across 4 stocks
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|GTCO: N11,901.65 → 103 units @ N115.55 (limit: N114.97)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|ZENITHBANK: N11,880.00 → 108 units @ N110.00 (limit: N109.45)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|OKOMUOIL: N0.00 → 0 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|TRANSCORP: N4,752.00 → 108 units @ N44.00 (limit: N43.78)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|MTNN: N800.00 → 1 units @ N800.00 (limit: N796.00)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|ACCESSCORP: N570.00 → 25 units @ N22.80 (limit: N22.69)
+2026-06-21 22:03:49|DEBUG|compute_allocations:83|FIDSON: N4,756.40 → 47 units @ N101.20 (limit: N100.69)
+2026-06-21 22:03:49|INFO|run_dca:112|DRY RUN — N34,660.05 across 7 stocks
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|ACCESSCORP: N570.00 → 25 units @ N22.80 (limit: N22.69)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|OKOMUOIL: N1,418.00 → 1 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|MTNN: N1,600.00 → 2 units @ N800.00 (limit: N796.00)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|TRANSCORP: N4,488.00 → 102 units @ N44.00 (limit: N43.78)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|FIDSON: N4,452.80 → 44 units @ N101.20 (limit: N100.69)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|ZENITHBANK: N11,220.00 → 102 units @ N110.00 (limit: N109.45)
+2026-06-21 22:06:55|DEBUG|compute_allocations:146|GTCO: N11,208.35 → 97 units @ N115.55 (limit: N114.97)
+2026-06-21 22:06:55|INFO|run_dca:176|DRY RUN — N34,957.15 across 7 stocks
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|ACCESSCORP: N5,016.00 → 220 units @ N22.80 (limit: N22.69)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|FIDSON: N5,464.80 → 54 units @ N101.20 (limit: N100.69)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|ZENITHBANK: N6,050.00 → 55 units @ N110.00 (limit: N109.45)
+2026-06-21 22:10:15|DEBUG|compute_allocations:169|GTCO: N6,008.60 → 52 units @ N115.55 (limit: N114.97)
+2026-06-21 22:10:15|INFO|run_dca:199|DRY RUN — N38,827.40 across 7 stocks
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|ACCESSCORP: N5,016.00 → 220 units @ N22.80 (limit: N22.69)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|FIDSON: N5,464.80 → 54 units @ N101.20 (limit: N100.69)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|ZENITHBANK: N6,050.00 → 55 units @ N110.00 (limit: N109.45)
+2026-06-21 22:12:16|DEBUG|compute_allocations:169|GTCO: N6,008.60 → 52 units @ N115.55 (limit: N114.97)
+2026-06-21 22:12:16|INFO|run_dca:204|DCA round 2 saved — N38,827.40 across 7 stocks
+2026-06-21 22:12:18|INFO|send_message:31|Telegram message sent
+2026-06-21 22:13:12|INFO|<module>:31|Stripe: mock mode (no valid API key)
+2026-06-21 22:13:12|INFO|create_dca_invoice:23|MOCK Stripe invoice created: in_a0da5ac844e34f4b
+2026-06-21 22:13:12|INFO|create_dca_invoice:24|Total: N40,000.00 (~$25.00)
+2026-06-21 22:13:14|INFO|send_message:31|Telegram message sent
+2026-06-21 22:14:20|INFO|<module>:31|Stripe: mock mode (no valid API key)
+2026-06-21 22:14:20|INFO|create_invoice_for_last_round:55|Already invoiced: in_a0da5ac844e34f4b
+2026-06-21 22:14:25|INFO|send_message:31|Telegram message sent
+2026-06-21 22:44:51|DEBUG|compute_allocations:91|ACCESSCORP: target met (220/200) — fully allocated
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|FIDSON: N6,072.00 → 60 units @ N101.20 (limit: N100.69)
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|ZENITHBANK: N7,590.00 → 69 units @ N110.00 (limit: N109.45)
+2026-06-21 22:44:51|DEBUG|compute_allocations:173|GTCO: N7,510.75 → 65 units @ N115.55 (limit: N114.97)
+2026-06-21 22:44:51|INFO|run_dca:203|DRY RUN — N37,460.75 across 7 stocks
+2026-06-21 22:46:52|DEBUG|compute_allocations:91|ACCESSCORP: target met (220/200) — fully allocated
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|FIDSON: N6,072.00 → 60 units @ N101.20 (limit: N100.69)
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|ZENITHBANK: N7,590.00 → 69 units @ N110.00 (limit: N109.45)
+2026-06-21 22:46:52|DEBUG|compute_allocations:173|GTCO: N7,510.75 → 65 units @ N115.55 (limit: N114.97)
+2026-06-21 22:46:52|INFO|run_dca:203|DRY RUN — N37,460.75 across 7 stocks
+2026-06-21 23:03:03|DEBUG|compute_allocations:91|ACCESSCORP: target met (220/200) — fully allocated
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|FIDSON: N6,072.00 → 60 units @ N101.20 (limit: N100.69)
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|ZENITHBANK: N7,590.00 → 69 units @ N110.00 (limit: N109.45)
+2026-06-21 23:03:03|DEBUG|compute_allocations:173|GTCO: N7,510.75 → 65 units @ N115.55 (limit: N114.97)
+2026-06-21 23:03:03|INFO|run_dca:203|DRY RUN — N37,460.75 across 7 stocks
+2026-06-21 23:03:53|INFO|fetch_prices:11|Scraping NGX prices for 7 stocks
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|GTCO: N115.55 (-9.97%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|ZENITHBANK: N110.00 (-4.76%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|OKOMUOIL: N1418.00 (+0.00%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|TRANSCORP: N44.00 (+0.00%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|MTNN: N800.00 (+0.00%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|ACCESSCORP: N22.80 (-0.87%)
+2026-06-21 23:04:08|DEBUG|fetch_prices:43|FIDSON: N101.20 (+0.00%)
+2026-06-21 23:04:08|INFO|fetch_prices:50|Saved prices for 7 stocks
+2026-06-21 23:04:08|WARNING|check_circuit_breakers:75|Circuit breaker: GTCO -9.97%
+2026-06-21 23:04:08|DEBUG|compute_allocations:91|ACCESSCORP: target met (220/200) — fully allocated
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|FIDSON: N6,072.00 → 60 units @ N101.20 (limit: N100.69)
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|ZENITHBANK: N7,590.00 → 69 units @ N110.00 (limit: N109.45)
+2026-06-21 23:04:08|DEBUG|compute_allocations:173|GTCO: N7,510.75 → 65 units @ N115.55 (limit: N114.97)
+2026-06-21 23:04:08|INFO|run_dca:203|DRY RUN — N37,460.75 across 7 stocks
+2026-06-21 23:12:38|INFO|fetch_prices:11|Scraping NGX prices for 7 stocks
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|GTCO: N115.55 (-9.97%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|ZENITHBANK: N110.00 (-4.76%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|OKOMUOIL: N1418.00 (+0.00%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|TRANSCORP: N44.00 (+0.00%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|MTNN: N800.00 (+0.00%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|ACCESSCORP: N22.80 (-0.87%)
+2026-06-21 23:12:50|DEBUG|fetch_prices:43|FIDSON: N101.20 (+0.00%)
+2026-06-21 23:12:50|INFO|fetch_prices:50|Saved prices for 7 stocks
+2026-06-21 23:12:50|WARNING|check_circuit_breakers:75|Circuit breaker: GTCO -9.97%
+2026-06-21 23:25:30|INFO|fetch_prices:11|Scraping NGX prices for 7 stocks
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|GTCO: N115.55 (-9.97%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|ZENITHBANK: N110.00 (-4.76%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|OKOMUOIL: N1418.00 (+0.00%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|TRANSCORP: N44.00 (+0.00%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|MTNN: N800.00 (+0.00%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|ACCESSCORP: N22.80 (-0.87%)
+2026-06-21 23:25:45|DEBUG|fetch_prices:43|FIDSON: N101.20 (+0.00%)
+2026-06-21 23:25:45|INFO|fetch_prices:50|Saved prices for 7 stocks
+2026-06-21 23:25:45|WARNING|check_circuit_breakers:75|Circuit breaker: GTCO -9.97%
+2026-06-21 23:25:45|DEBUG|compute_allocations:91|ACCESSCORP: target met (220/200) — fully allocated
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|OKOMUOIL: N5,672.00 → 4 units @ N1418.00 (limit: N1410.91)
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|MTNN: N5,600.00 → 7 units @ N800.00 (limit: N796.00)
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|TRANSCORP: N5,016.00 → 114 units @ N44.00 (limit: N43.78)
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|FIDSON: N6,072.00 → 60 units @ N101.20 (limit: N100.69)
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|ZENITHBANK: N7,590.00 → 69 units @ N110.00 (limit: N109.45)
+2026-06-21 23:25:45|DEBUG|compute_allocations:173|GTCO: N7,510.75 → 65 units @ N115.55 (limit: N114.97)
+2026-06-21 23:25:45|INFO|run_dca:203|DRY RUN — N37,460.75 across 7 stocks

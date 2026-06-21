@@ -1,0 +1,15 @@
+[project]
+name = "eloho-agent"
+version = "0.2.0"
+description = "Autonomous NGX investment agent with Stripe financial rails"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "stripe>=10.0.0",
+    "python-telegram-bot>=21.0",
+    "loguru>=0.7.0",
+    "python-dotenv>=1.0.0",
+    "click>=8.1.0",
+]
