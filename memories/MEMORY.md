@@ -1,0 +1,11 @@
+User is building Eloho — a Nigerian stock market DCA automation agent on NGX. Focus stocks: GTCO, ZENITHBANK, OKOMUOIL, TRANSCORP, MTNN, ACCESSCORP, FIDSON. Runs on Termux (Android) with Python 3.13, SQLite, Stripe mock, Telegram notifications.
+§
+DCA design decisions (2026-06-21): Min buy amount fixed at ₦5,000 (cannot go lower). Units are whole numbers only (floor). Target units per stock (GTCO:500, ZENITHBANK:500, OKOMUOIL:30, MTNN:50, TRANSCORP:200, ACCESSCORP:200, FIDSON:200). Skipped stock funds redistributed proportionally by remaining units to target. Weights, limit guard %, and target units all configurable via .env.
+§
+User prefers direct, technical communication. No small talk. Wants to understand reasoning behind every design decision. Asks clarifying questions before implementing. Iterative approach — reviews output, then adjusts.
+§
+Project path: /data/data/com.termux/files/home/projects/eloho-agent/. CLI: ./run.sh [prices|dca|invoice|report|status] with --notify and --dry-run flags.
+§
+User is a Nigerian stock market investor building Eloho — an autonomous NGX DCA agent. Interested in GTCO, ZENITHBANK, OKOMUOIL, TRANSCORP, MTNN, ACCESSCORP, FIDSON. Prefers concise, data-driven responses with Naira-first thinking. Wants all DCA config in config.py (not .env), secrets only in .env. Enforces ₦5,000 minimum buy per stock. Likes structured formatting (tables, lists). Building for the Hermes Agent Accelerated Business Hackathon (NVIDIA, Stripe, Nous Research) — due June 30.
+§
+Eloho project: DCA allocation uses target-unit-based weights (not hardcoded). Stocks closest to target get priority. All 7 stocks always appear in output. Whole units only (floor division). MIN_BUY_COST = 5000 Naira fixed. Holdings tracked via last DCA round in SQLite. Stripe mock mode active (no valid API key). Telegram notifications enabled. Backup created at eloho-agent-backup-20260621-223504.tar.gz. 20 unit tests passing. --json output available on dca and report commands. Cumulative tracking in report shows total units/spend/% toward target.

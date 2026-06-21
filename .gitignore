@@ -1,0 +1,17 @@
+.env
+*.db
+*.db-shm
+*.db-wal
+logs/
+cache/
+audio_cache/
+image_cache/
+sandboxes/
+workspace/
+models_dev_cache.json
+auth.json
+auth.lock
+gateway.lock
+gateway.pid
+gateway_state.json
+pairing
