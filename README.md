@@ -12,8 +12,8 @@ git clone https://github.com/netzro/eloho-profile.git ~/.hermes/profiles/eloho
 cp .env.example .env
 # Edit .env with your Telegram bot token
 
-# Start Hermes (from a separate shell)
-hermes gateway start
+# Start Eloho
+eloho gateway start
 
 # DM Eloho on Telegram
 ```
@@ -35,9 +35,19 @@ hermes gateway start
 - ₦5,000 minimum per stock
 - Weight-based distribution
 
-## Related
+## Self-Contained
 
-- Agent code: https://github.com/netzro/eloho-agent
+This profile includes the full agent code in `workspace/`:
+
+```
+workspace/
+├── eloho/          # Core package (cli, dca, prices, scraper, stripe, notify)
+├── tests/          # 20 unit tests
+├── run.sh          # CLI entry point
+└── pyproject.toml  # Python 3.11 project
+```
+
+No separate repo needed. Clone → Configure → Run.
 
 ## License
 
